@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Pay Payment</title>
+  <style>
+    body{font-family:system-ui,sans-serif;max-width:760px;margin:40px auto;padding:20px;background:#f5f7fb;color:#172033}
+    .card{background:#fff;padding:28px;border-radius:18px;box-shadow:0 8px 30px #0001}
+    input,button{width:100%;box-sizing:border-box;padding:13px;margin:7px 0;border-radius:10px;border:1px solid #ccd3df;font-size:16px}
+    button{cursor:pointer;background:#111827;color:#fff;border:0}
+    pre{white-space:pre-wrap;background:#111827;color:#e5e7eb;padding:16px;border-radius:12px;min-height:40px}
+    .note{font-size:14px;color:#5b6472}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Google Pay Payment</h1>
+    <p class="note">The payment token is sent to your server. It is not stored in this page or committed to GitHub.</p>
+    <label>Amount</label>
+    <input id="amount" type="number" value="123" min="1" />
+    <label>Currency</label>
+    <input id="currency" value="EUR" maxlength="3" />
+    <label>Google Pay token</label>
+    <input id="token" type="password" autocomplete="off" placeholder="Paste token here" />
+    <button id="pay">Send payment request</button>
+    <pre id="result">Ready.</pre>
+  </div>
+  <script>
+    document.getElementById('pay').addEventListener('click', async () => {
+      const token = document.getElementById('token').value.trim();
+      const amount = Number(document.getElementById('amount').value);
+      const currency = document.getElementById('currency').value.trim().toUpperCase();
+      const result = document.getElementById('result');
+      if (!token) { result.textContent = 'Google Pay token required.'; return; }
+      if (!Number.isFinite(amount) || amount <= 0) { result.textContent = 'Enter a valid amount.'; return; }
+      result.textContent = 'Sending...';
+      try {
+        const response = await fetch('/api/pay', {
+          method: 'POST', headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({amount, currency, googlePayToken: token})
+        });
+        const data = await response.json();
+        result.textContent = JSON.stringify(data, null, 2);
+      } catch (error) {
+        result.textContent = 'Request failed: ' + error.message;
+      }
+    });
+  </script>
+</body>
+</html>
