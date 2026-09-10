@@ -1,0 +1,18 @@
+{
+  "channel_name": "DEIOM Official",
+  "channel_url": "https://www.youtube.com/@Deiomofficial",
+  "platform": "YouTube",
+  "purpose": "content publishing and monetization tracking",
+  "authorization": {
+    "status": "not_connected",
+    "method": "Google OAuth",
+    "note": "Complete Google authorization in the user's browser. Never store Google passwords, OTPs, recovery codes, or access tokens in this repository."
+  },
+  "monetization": {
+    "track_views": true,
+    "track_subscribers": true,
+    "track_watch_time": true,
+    "track_shorts": true,
+    "track_estimated_revenue": true
+  }
+}
