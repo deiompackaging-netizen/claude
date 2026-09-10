@@ -1,0 +1,18 @@
+{
+  "currency": "USD",
+  "balance": 0,
+  "pending": 0,
+  "paid": 0,
+  "transactions": [],
+  "payout_accounts": {
+    "affiliate": {"status": "not_connected", "provider": null},
+    "youtube": {"status": "not_connected", "provider": "YouTube"},
+    "blog": {"status": "not_connected", "provider": "Blogger/AdSense"},
+    "direct_sales": {"status": "not_connected", "provider": "Stripe"}
+  },
+  "rules": {
+    "never_store_passwords": true,
+    "never_store_payment_tokens": true,
+    "only_count_verified_revenue": true
+  }
+}
