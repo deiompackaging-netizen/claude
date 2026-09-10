@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "checkout_provider": "Gumroad",
+  "checkout_status": "needs_user_account_setup",
+  "products": [
+    {
+      "slug": "ai-ide-starter-guide",
+      "name": "AI IDE Starter Guide",
+      "price_usd": 7,
+      "status": "ready_for_listing",
+      "description": "Practical beginner guide for choosing and setting up modern AI coding environments, with workflows, prompts, and checklists."
+    },
+    {
+      "slug": "developer-productivity-template-pack",
+      "name": "Developer Productivity Template Pack",
+      "price_usd": 12,
+      "status": "ready_for_listing",
+      "description": "Reusable project briefs, QA checklists, automation prompts, and delivery templates for developers and small teams."
+    },
+    {
+      "slug": "solar-quotation-automation-starter-pack",
+      "name": "Solar Quotation Automation Starter Pack",
+      "price_usd": 19,
+      "status": "ready_for_listing",
+      "description": "A practical starter pack for solar installers covering quotation workflow, item/rate structure, calculation checks, and customer-ready quote preparation."
+    }
+  ],
+  "checkout_urls": {
+    "ai_ide_starter_guide": "SET_AFTER_GUMROAD_PRODUCT_CREATION",
+    "developer_productivity_template_pack": "SET_AFTER_GUMROAD_PRODUCT_CREATION",
+    "solar_quotation_automation_starter_pack": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+  }
+}
