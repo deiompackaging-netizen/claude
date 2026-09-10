@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "last_scanned": null,
+  "programs": [],
+  "rules": {
+    "never_invent_affiliate_url": true,
+    "never_invent_commission": true,
+    "require_official_verification": true,
+    "disclose_affiliate_relationship": true
+  }
+}
