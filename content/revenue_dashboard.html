@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IDE Guide Revenue Dashboard</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:1100px;margin:40px auto;padding:0 20px;background:#f7f7f8;color:#202124}h1{margin-bottom:8px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:white;border:1px solid #ddd;border-radius:14px;padding:20px}.big{font-size:28px;font-weight:700}.note{margin-top:24px;padding:16px;background:white;border-radius:14px;border:1px solid #ddd}@media(max-width:800px){.grid{grid-template-columns:1fr 1fr}}@media(max-width:500px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<h1>IDE Guide Money Dashboard</h1>
+<p>One place to monitor the earning engine. Values come from the internal ledger, not a bank or payment provider.</p>
+<div class="grid">
+<div class="card"><div>Balance</div><div class="big" id="balance">$0.00</div></div>
+<div class="card"><div>Pending</div><div class="big" id="pending">$0.00</div></div>
+<div class="card"><div>Paid</div><div class="big" id="paid">$0.00</div></div>
+<div class="card"><div>Transactions</div><div class="big" id="count">0</div></div>
+</div>
+<div class="note"><strong>Connected payout accounts</strong><p>Affiliate: not connected</p><p>YouTube: not connected</p><p>Blogger/AdSense: not connected</p><p>Direct sales: not connected</p></div>
+<div class="note"><strong>Security</strong><p>Do not put passwords, API secrets, payment tokens, bank details, or private payout credentials in this repository.</p></div>
+<script>
+fetch('revenue_wallet.json').then(r=>r.json()).then(w=>{
+ const f=n=>'$'+Number(n||0).toFixed(2);
+ balance.textContent=f(w.balance); pending.textContent=f(w.pending); paid.textContent=f(w.paid); count.textContent=(w.transactions||[]).length;
+}).catch(()=>{});
+</script>
+</body>
+</html>
