@@ -1,0 +1,9 @@
+{
+  "instagram": {
+    "platform": "Instagram",
+    "profile_url": "https://www.instagram.com/",
+    "status": "profile_url_only",
+    "purpose": "DEIOM content distribution and traffic acquisition",
+    "note": "The supplied URL is Instagram's homepage, not a specific DEIOM profile URL. Do not store passwords, OTPs, recovery codes, or access tokens in the repository."
+  }
+}
