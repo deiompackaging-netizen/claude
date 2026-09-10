@@ -1,0 +1,12 @@
+{
+  "name": "google-pay-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Google Pay token payload demo",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
