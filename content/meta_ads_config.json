@@ -1,0 +1,34 @@
+{
+  "platform": "Meta Ads Manager",
+  "purpose": "paid traffic and campaign measurement for DEIOM content/products",
+  "ads_manager_url": "https://adsmanager.facebook.com/adsmanager/",
+  "account_reference": "configure_in_user_account",
+  "campaign_targets": [
+    "DEIOM digital products",
+    "solar quotation automation leads",
+    "developer/AI productivity content",
+    "Instagram traffic"
+  ],
+  "tracking": {
+    "spend": true,
+    "impressions": true,
+    "clicks": true,
+    "ctr": true,
+    "cpc": true,
+    "conversions": true,
+    "roas": true
+  },
+  "authorization": {
+    "status": "not_connected",
+    "note": "The user must authorize Meta in their own browser. Never store Meta passwords, OTPs, session cookies, or access tokens in this repository."
+  },
+  "strategy": {
+    "start_with": "small controlled tests",
+    "do_not": [
+      "buy fake engagement",
+      "spam users",
+      "run ads without a measurable destination",
+      "spend aggressively before conversion data exists"
+    ]
+  }
+}
