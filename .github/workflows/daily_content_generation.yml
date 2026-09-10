@@ -1,0 +1,102 @@
+name: Daily IDE Guide Content Generation
+
+on:
+  schedule:
+    # 00:30 UTC = 05:30 Pakistan Standard Time
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-ide-guide-content
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          if [ -f requirements.txt ]; then
+            python -m pip install --upgrade pip
+            python -m pip install -r requirements.txt
+          else
+            echo "No requirements.txt found. Continuing with Python standard library."
+          fi
+
+      - name: Run tests
+        shell: bash
+        run: |
+          if [ -d tests ] && find tests -type f -name 'test_*.py' -print -quit | grep -q .; then
+            python -m pytest tests/ -q
+          else
+            echo "No pytest test suite found yet. Skipping tests."
+          fi
+
+      - name: Generate daily content
+        shell: bash
+        run: |
+          if [ ! -f scripts/generate_daily_content.py ]; then
+            echo "ERROR: scripts/generate_daily_content.py is missing."
+            exit 1
+          fi
+          python3 scripts/generate_daily_content.py
+
+      - name: Validate generated content
+        shell: bash
+        run: |
+          TODAY="$(date -u +%F)"
+          CONTENT_DIR="content/${TODAY}"
+
+          if [ ! -d "$CONTENT_DIR" ]; then
+            echo "ERROR: Expected content directory $CONTENT_DIR was not created."
+            exit 1
+          fi
+
+          POST_COUNT=$(find "$CONTENT_DIR" -maxdepth 1 -type f -name 'post_*.html' | wc -l)
+          VIDEO_COUNT=$(find "$CONTENT_DIR" -maxdepth 1 -type f -name 'video_spec_*.json' | wc -l)
+
+          echo "Generated posts: $POST_COUNT"
+          echo "Generated video specs: $VIDEO_COUNT"
+
+          if [ "$POST_COUNT" -ne 3 ]; then
+            echo "ERROR: Expected exactly 3 AMP posts."
+            exit 1
+          fi
+
+          if [ "$VIDEO_COUNT" -ne 3 ]; then
+            echo "ERROR: Expected exactly 3 video specs."
+            exit 1
+          fi
+
+      - name: Commit generated content
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add content/
+
+          if git diff --cached --quiet; then
+            echo "No new content changes to commit."
+            exit 0
+          fi
+
+          TODAY="$(date -u +%F)"
+          git commit -m "Generate IDE Guide daily content for ${TODAY}"
+          git push
