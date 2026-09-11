@@ -1,0 +1,61 @@
+{
+  "project": "Hybrid Solar Lead Outreach",
+  "purpose": "Find businesses with no publicly verified solar installation, estimate a provisional hybrid-solar opportunity, and prepare compliant personalized outreach.",
+  "location_scope": "USER_MUST_CONFIRM_CITY_OR_SERVICE_AREA",
+  "lead_status_values": [
+    "new",
+    "public_solar_evidence_not_found",
+    "needs_manual_verification",
+    "contacted",
+    "replied",
+    "qualified",
+    "site_survey_booked",
+    "quotation_sent",
+    "won",
+    "lost",
+    "do_not_contact"
+  ],
+  "required_fields": [
+    "company_name",
+    "industry",
+    "public_business_address",
+    "public_business_phone",
+    "public_business_email",
+    "official_website",
+    "source_url",
+    "solar_status",
+    "estimated_load_kw",
+    "estimated_system_size_kw",
+    "confidence",
+    "last_verified_at",
+    "outreach_status"
+  ],
+  "rules": {
+    "use_public_business_contacts_only": true,
+    "do_not_claim_solar_is_absent_without_verification": true,
+    "label_estimates_as_provisional": true,
+    "do_not_send_bulk_spam": true,
+    "include_opt_out_line": true,
+    "never_store_passwords_otp_tokens_or_private_contact_data": true,
+    "require_human_review_before_first_send": true,
+    "daily_initial_send_limit": 20
+  },
+  "email_provider": {
+    "provider": "Gmail or Microsoft 365",
+    "authorization": "user_oauth_required",
+    "gmail_scope": "https://www.googleapis.com/auth/gmail.send",
+    "microsoft_scope": "Mail.Send"
+  },
+  "workflow": [
+    "discover_public_businesses",
+    "remove_solar_installers",
+    "verify_public_solar_evidence",
+    "estimate_provisional_system_size",
+    "generate_personalized_email",
+    "human_review",
+    "send_email",
+    "track_reply_and_follow_up",
+    "book_site_survey",
+    "generate_quotation"
+  ]
+}
