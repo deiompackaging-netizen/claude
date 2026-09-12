@@ -1,0 +1,47 @@
+{
+  "title": "VSCodium in 60 Seconds: IDE Guide",
+  "format": {
+    "shorts": "9:16",
+    "long_form": "16:9"
+  },
+  "duration_seconds": 60,
+  "visual_style": "clean premium developer-tool editorial",
+  "scenes": [
+    {
+      "timecode": "00:00-00:06",
+      "visual": "Fast cinematic reveal of VSCodium editor interface on a modern developer workstation",
+      "camera": "slow push-in",
+      "lighting": "soft monitor glow",
+      "voiceover": "Meet VSCodium, a developer tool worth putting through a real workflow."
+    },
+    {
+      "timecode": "00:06-00:20",
+      "visual": "Project tree, editor, search and terminal shown in quick purposeful cuts",
+      "camera": "screen-focused tracking",
+      "lighting": "neutral studio",
+      "voiceover": "Focus on project navigation, search, language tooling, Git and terminal flow."
+    },
+    {
+      "timecode": "00:20-00:40",
+      "visual": "Developer edits code, searches symbols, reviews a Git change and runs a command",
+      "camera": "over-shoulder medium shot",
+      "lighting": "balanced practical lighting",
+      "voiceover": "The real test is not the feature list. It is how quickly you can finish real work."
+    },
+    {
+      "timecode": "00:40-00:54",
+      "visual": "Three concise on-screen cards: strengths, trade-offs, ideal user",
+      "camera": "locked editorial frame",
+      "lighting": "clean high-key",
+      "voiceover": "Evaluate VSCodium against your current editor using the same project and tasks."
+    },
+    {
+      "timecode": "00:54-01:00",
+      "visual": "VSCodium wordmark-style title card with IDE Guide branding",
+      "camera": "gentle pull-back",
+      "lighting": "minimal studio",
+      "voiceover": "IDE Guide: VSCodium. Independent review, not sponsored or endorsed by the vendor."
+    }
+  ],
+  "disclaimer": "This is an independent editorial guide. It is not sponsored, endorsed, or paid for by the featured IDE or editor."
+}
