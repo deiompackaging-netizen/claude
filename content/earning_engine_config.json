@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "status": "active_build",
+  "goal": "Turn DEIOM content traffic into legitimate revenue without fake engagement, spam, or invented affiliate claims.",
+  "channels": {
+    "youtube": "https://www.youtube.com/@Deiomofficial",
+    "instagram": "https://www.instagram.com/moied.creative/",
+    "blogger": "https://ideguide.blogspot.com/",
+    "github": "https://github.com/deiompackaging-netizen/claude"
+  },
+  "revenue_routes": [
+    "digital_products",
+    "verified_affiliate_programs",
+    "solar_b2b_leads",
+    "youtube_ypp",
+    "sponsored_content_after_audience"
+  ],
+  "product_ctas": [
+    {
+      "slug": "ai-ide-starter-guide",
+      "price_usd": 7,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "slug": "developer-productivity-template-pack",
+      "price_usd": 12,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "slug": "solar-quotation-automation-starter-pack",
+      "price_usd": 19,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    }
+  ],
+  "rules": {
+    "no_fake_views": true,
+    "no_fake_subscribers": true,
+    "no_spam": true,
+    "no_invented_affiliate_terms": true,
+    "disclose_affiliates": true,
+    "disclose_sponsorships": true,
+    "never_store_credentials": true,
+    "never_store_payment_tokens": true
+  }
+}
