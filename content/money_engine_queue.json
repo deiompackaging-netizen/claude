@@ -1,0 +1,69 @@
+{
+  "date": "2026-09-14",
+  "status": "planned",
+  "tasks": [
+    {
+      "priority": 10,
+      "type": "commercial_article",
+      "topic": "AI IDE comparison: Cursor vs VS Code",
+      "cta_product": "AI IDE Starter Guide",
+      "cta_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "priority": 10,
+      "type": "long_form_video",
+      "topic": "AI IDE comparison: Cursor vs VS Code",
+      "angle": "Problem -> practical demonstration -> result -> product CTA"
+    },
+    {
+      "priority": 10,
+      "type": "short_form",
+      "topic": "AI IDE comparison: Cursor vs VS Code",
+      "angle": "Hook #1: one concrete mistake, fix, or shortcut"
+    },
+    {
+      "priority": 10,
+      "type": "commercial_article",
+      "topic": "How to build a professional solar quotation workflow",
+      "cta_product": "Solar Quotation Automation Starter Pack",
+      "cta_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "priority": 10,
+      "type": "long_form_video",
+      "topic": "How to build a professional solar quotation workflow",
+      "angle": "Problem -> practical demonstration -> result -> product CTA"
+    },
+    {
+      "priority": 10,
+      "type": "short_form",
+      "topic": "How to build a professional solar quotation workflow",
+      "angle": "Hook #2: one concrete mistake, fix, or shortcut"
+    },
+    {
+      "priority": 10,
+      "type": "commercial_article",
+      "topic": "Hybrid solar quotation checklist for installers",
+      "cta_product": "Solar Quotation Automation Starter Pack",
+      "cta_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "priority": 10,
+      "type": "long_form_video",
+      "topic": "Hybrid solar quotation checklist for installers",
+      "angle": "Problem -> practical demonstration -> result -> product CTA"
+    },
+    {
+      "priority": 10,
+      "type": "short_form",
+      "topic": "Hybrid solar quotation checklist for installers",
+      "angle": "Hook #3: one concrete mistake, fix, or shortcut"
+    }
+  ],
+  "rules": [
+    "No fake traffic or engagement",
+    "No spam blasting",
+    "Disclose affiliate relationships",
+    "Do not publish credentials or payment secrets"
+  ]
+}
