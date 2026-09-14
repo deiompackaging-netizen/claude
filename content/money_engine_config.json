@@ -1,0 +1,45 @@
+{
+  "engine": "DEIOM CEO Money Engine",
+  "currency": "USD",
+  "products": [
+    {
+      "id": "ai-ide-starter",
+      "name": "AI IDE Starter Guide",
+      "price_usd": 7,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "id": "developer-productivity-pack",
+      "name": "Developer Productivity Template Pack",
+      "price_usd": 12,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    },
+    {
+      "id": "solar-quotation-starter",
+      "name": "Solar Quotation Automation Starter Pack",
+      "price_usd": 19,
+      "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION"
+    }
+  ],
+  "channels": {
+    "youtube": "https://www.youtube.com/@Deiomofficial",
+    "instagram": "https://www.instagram.com/moied.creative/",
+    "blog": "https://ideguide.blogspot.com/"
+  },
+  "daily_targets": {
+    "commercial_articles": 1,
+    "short_form_concepts": 3,
+    "long_form_video_plans": 1,
+    "qualified_b2b_prospects": 5,
+    "personalized_outreach_messages": 20
+  },
+  "metrics": [
+    "qualified_leads",
+    "product_sales",
+    "gross_revenue",
+    "refunds",
+    "conversion_rate",
+    "affiliate_clicks",
+    "outreach_replies"
+  ]
+}
