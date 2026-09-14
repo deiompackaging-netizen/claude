@@ -1,6 +1,10 @@
 {
   "engine": "DEIOM CEO Money Engine",
   "currency": "USD",
+  "gumroad": {
+    "store_url": "https://packagingdeio.gumroad.com/",
+    "subscribe_url": "https://packagingdeio.gumroad.com/subscribe"
+  },
   "products": [
     {
       "id": "ai-ide-starter",
@@ -40,6 +44,7 @@
     "refunds",
     "conversion_rate",
     "affiliate_clicks",
-    "outreach_replies"
+    "outreach_replies",
+    "gumroad_subscribers"
   ]
 }
