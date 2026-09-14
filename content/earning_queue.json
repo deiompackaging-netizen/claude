@@ -1,0 +1,104 @@
+{
+  "generated_at_utc": "2026-09-14T05:29:11.199069+00:00",
+  "purpose": "daily monetization-ready content queue",
+  "items": [
+    {
+      "id": "2026-09-14-1",
+      "date": "2026-09-14",
+      "pillar": "AI + software",
+      "format": "long_video",
+      "title": "AI IDE workflow for small businesses",
+      "hook": "Stop wasting hours switching between coding tools. Build one repeatable AI IDE workflow.",
+      "cta": {
+        "product": "ai-ide-starter-guide",
+        "price_usd": 7,
+        "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION",
+        "status": "replace_placeholder_before_publish"
+      },
+      "shorts": [
+        "AI IDE workflow for small businesses: 30-second mistake to avoid",
+        "AI IDE workflow for small businesses: one practical tip",
+        "AI IDE workflow for small businesses: before/after workflow"
+      ],
+      "disclosure": "Affiliate links, if used, will be clearly disclosed. Product links are commercial offers.",
+      "tracking": {
+        "utm_source": "youtube",
+        "utm_medium": "video",
+        "utm_campaign": "ai-ide-starter-guide",
+        "views": 0,
+        "clicks": 0,
+        "sales": 0,
+        "revenue_usd": 0
+      }
+    },
+    {
+      "id": "2026-09-14-2",
+      "date": "2026-09-14",
+      "pillar": "AI + software",
+      "format": "long_video",
+      "title": "Developer productivity automation",
+      "hook": "Turn a messy project into a repeatable delivery system with templates and automation.",
+      "cta": {
+        "product": "developer-productivity-template-pack",
+        "price_usd": 12,
+        "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION",
+        "status": "replace_placeholder_before_publish"
+      },
+      "shorts": [
+        "Developer productivity automation: 30-second mistake to avoid",
+        "Developer productivity automation: one practical tip",
+        "Developer productivity automation: before/after workflow"
+      ],
+      "disclosure": "Affiliate links, if used, will be clearly disclosed. Product links are commercial offers.",
+      "tracking": {
+        "utm_source": "youtube",
+        "utm_medium": "video",
+        "utm_campaign": "developer-productivity-template-pack",
+        "views": 0,
+        "clicks": 0,
+        "sales": 0,
+        "revenue_usd": 0
+      }
+    },
+    {
+      "id": "2026-09-14-3",
+      "date": "2026-09-14",
+      "pillar": "solar + business",
+      "format": "long_video",
+      "title": "Solar quotation automation",
+      "hook": "Build a professional solar quote faster, with fewer calculation and pricing mistakes.",
+      "cta": {
+        "product": "solar-quotation-automation-starter-pack",
+        "price_usd": 19,
+        "checkout_url": "SET_AFTER_GUMROAD_PRODUCT_CREATION",
+        "status": "replace_placeholder_before_publish"
+      },
+      "shorts": [
+        "Solar quotation automation: 30-second mistake to avoid",
+        "Solar quotation automation: one practical tip",
+        "Solar quotation automation: before/after workflow"
+      ],
+      "disclosure": "Affiliate links, if used, will be clearly disclosed. Product links are commercial offers.",
+      "tracking": {
+        "utm_source": "youtube",
+        "utm_medium": "video",
+        "utm_campaign": "solar-quotation-automation-starter-pack",
+        "views": 0,
+        "clicks": 0,
+        "sales": 0,
+        "revenue_usd": 0
+      }
+    }
+  ],
+  "publish_status": "draft_queue_only",
+  "safety": {
+    "no_fake_views": true,
+    "no_fake_subscribers": true,
+    "no_spam": true,
+    "no_invented_affiliate_terms": true,
+    "disclose_affiliates": true,
+    "disclose_sponsorships": true,
+    "never_store_credentials": true,
+    "never_store_payment_tokens": true
+  }
+}
