@@ -1,0 +1,191 @@
+{
+  "system": "DEIOM PRESS GEN-5 Swarm",
+  "generated_at": "2026-09-16T16:44:15.728321+00:00",
+  "reports": [
+    {
+      "system": "DEIOM PRESS GEN-5 Swarm",
+      "cycle": "20260916T164404Z",
+      "requested_agent": "ai_upgrade",
+      "agents": {
+        "ai_upgrade": {
+          "agent": "AI Upgrade Agent",
+          "timestamp": "2026-09-16T16:44:04.354083+00:00",
+          "provider_registry_count": 4,
+          "enabled_credentials_detected": [],
+          "actions": [
+            "Continuously compare configured AI providers by capability, reliability, latency, and cost signals.",
+            "Prepare demand forecasting, AI-assisted SOP, quotation, QC-report, and customer-draft generation.",
+            "Maintain OpenAI Realtime/Twilio/Amazon Connect/MCP voice integration as an optional capability layer.",
+            "Use provider adapters and bounded fallback; never silently create accounts, spend money, or change billing.",
+            "Prefer stable/pinned production model identifiers; test newer candidates before promotion."
+          ]
+        }
+      },
+      "feature_detection": {
+        "quotations": true,
+        "production": true,
+        "quality": true,
+        "inventory": true,
+        "finance": false,
+        "ai": false,
+        "dispatch": false,
+        "voice": true,
+        "mcp": true
+      },
+      "provider_registry_version": "2026-09-16.1",
+      "api_enabled": false,
+      "authorization_state": "pre-account-connection"
+    },
+    {
+      "system": "DEIOM PRESS GEN-5 Swarm",
+      "cycle": "20260916T164403Z",
+      "requested_agent": "erp_qa",
+      "agents": {
+        "erp_qa": {
+          "agent": "ERP QA Agent",
+          "timestamp": "2026-09-16T16:44:03.633432+00:00",
+          "checks": {
+            "html_present": true,
+            "script_tags": 0
+          },
+          "actions": [
+            "Run HTML syntax/runtime smoke tests.",
+            "Preserve documented classic-script load order.",
+            "Verify localStorage persistence and graceful CDN failure behavior.",
+            "Validate new AI/voice adapters without enabling account actions."
+          ]
+        }
+      },
+      "feature_detection": {
+        "quotations": true,
+        "production": true,
+        "quality": true,
+        "inventory": true,
+        "finance": false,
+        "ai": false,
+        "dispatch": false,
+        "voice": true,
+        "mcp": true
+      },
+      "provider_registry_version": "2026-09-16.1",
+      "api_enabled": false,
+      "authorization_state": "pre-account-connection"
+    },
+    {
+      "system": "DEIOM PRESS GEN-5 Swarm",
+      "cycle": "20260916T164405Z",
+      "requested_agent": "operations",
+      "agents": {
+        "operations": {
+          "agent": "Operations Agent",
+          "timestamp": "2026-09-16T16:44:05.500788+00:00",
+          "detected_capabilities": [
+            "quotations",
+            "production",
+            "quality",
+            "inventory",
+            "voice",
+            "mcp"
+          ],
+          "actions": [
+            "Map every job stage to an owner, SLA, and next-action signal.",
+            "Prioritize overdue jobs, stock shortages, QC failures, and capacity bottlenecks.",
+            "Keep the Job Card as the single production record.",
+            "Prepare voice intake so callers can create structured leads/jobs after authorization."
+          ]
+        }
+      },
+      "feature_detection": {
+        "quotations": true,
+        "production": true,
+        "quality": true,
+        "inventory": true,
+        "finance": false,
+        "ai": false,
+        "dispatch": false,
+        "voice": true,
+        "mcp": true
+      },
+      "provider_registry_version": "2026-09-16.1",
+      "api_enabled": false,
+      "authorization_state": "pre-account-connection"
+    },
+    {
+      "system": "DEIOM PRESS GEN-5 Swarm",
+      "cycle": "20260916T164404Z",
+      "requested_agent": "revenue",
+      "agents": {
+        "revenue": {
+          "agent": "Revenue Agent",
+          "timestamp": "2026-09-16T16:44:04.511784+00:00",
+          "commercial_assets": [
+            "Printing ERP implementation/setup service",
+            "Solar/printing quotation workflow customization",
+            "ERP training and SOP package",
+            "B2B custom packaging + offset printing lead funnel",
+            "AI phone receptionist / lead-intake service"
+          ],
+          "actions": [
+            "Create buyer-intent content from real ERP capabilities.",
+            "Generate qualified B2B prospect tasks rather than fake engagement.",
+            "Prepare phone lead qualification and appointment workflows.",
+            "Keep checkout, payout, publishing, and outbound messaging disabled until authorization exists."
+          ]
+        }
+      },
+      "feature_detection": {
+        "quotations": true,
+        "production": true,
+        "quality": true,
+        "inventory": true,
+        "finance": false,
+        "ai": false,
+        "dispatch": false,
+        "voice": true,
+        "mcp": true
+      },
+      "provider_registry_version": "2026-09-16.1",
+      "api_enabled": false,
+      "authorization_state": "pre-account-connection"
+    },
+    {
+      "system": "DEIOM PRESS GEN-5 Swarm",
+      "cycle": "20260916T164403Z",
+      "requested_agent": "security",
+      "agents": {
+        "security": {
+          "agent": "Security & Reliability Agent",
+          "timestamp": "2026-09-16T16:44:03.425228+00:00",
+          "security_checks": [
+            "No credentials, OTPs, passwords, or payment details in source control.",
+            "No covert device control or unauthorized account actions.",
+            "Pin or validate external dependencies where practical.",
+            "Use bounded retries and timeouts for network integrations.",
+            "Require explicit authorization gates before publishing, messaging, payments, or phone calling."
+          ],
+          "actions": [
+            "Scan generated files for accidental secrets before commit.",
+            "Keep account actions behind explicit authorization gates.",
+            "Reject unreviewed provider/model upgrades that fail compatibility checks."
+          ]
+        }
+      },
+      "feature_detection": {
+        "quotations": true,
+        "production": true,
+        "quality": true,
+        "inventory": true,
+        "finance": false,
+        "ai": false,
+        "dispatch": false,
+        "voice": true,
+        "mcp": true
+      },
+      "provider_registry_version": "2026-09-16.1",
+      "api_enabled": false,
+      "authorization_state": "pre-account-connection"
+    }
+  ],
+  "authorization_state": "pre-account-connection",
+  "next_account_gate": "Enable only approved platform/API credentials through GitHub Secrets."
+}
