@@ -1,0 +1,61 @@
+{
+  "version": "2026-09-16.1",
+  "purpose": "Provider-neutral AI capability registry. It records candidate services and upgrade rules; it does not create accounts, change billing, or spend money automatically.",
+  "providers": [
+    {
+      "id": "openai",
+      "capabilities": ["reasoning", "coding", "vision", "web_search", "file_search", "agents", "realtime_voice", "mcp"],
+      "credential_env": "OPENAI_API_KEY",
+      "production_policy": "Use stable/pinned model identifiers and run compatibility/eval checks before promotion."
+    },
+    {
+      "id": "google_gemini",
+      "capabilities": ["reasoning", "multimodal", "agents", "web_search", "code_execution", "computer_use", "voice", "image", "video"],
+      "credential_env": "GEMINI_API_KEY",
+      "production_policy": "Prefer stable model versions; preview models require explicit evaluation before production promotion."
+    },
+    {
+      "id": "anthropic_claude",
+      "capabilities": ["reasoning", "coding", "vision", "analysis"],
+      "credential_env": "ANTHROPIC_API_KEY",
+      "production_policy": "Track provider deprecations and validate replacement models before migration."
+    },
+    {
+      "id": "openai_realtime_phone_stack",
+      "capabilities": ["phone_voice", "realtime_audio", "twilio", "amazon_connect", "sip", "mcp"],
+      "credential_env": "OPENAI_API_KEY",
+      "production_policy": "Account-gated. No calls, transfers, outbound messaging, or customer actions before explicit authorization."
+    }
+  ],
+  "credential_env": [
+    "OPENAI_API_KEY",
+    "GEMINI_API_KEY",
+    "ANTHROPIC_API_KEY",
+    "TWILIO_ACCOUNT_SID",
+    "TWILIO_AUTH_TOKEN",
+    "AMAZON_CONNECT_INSTANCE_ID",
+    "AWS_ACCESS_KEY_ID",
+    "AWS_SECRET_ACCESS_KEY"
+  ],
+  "upgrade_rules": {
+    "discover": true,
+    "compare": true,
+    "benchmark": true,
+    "compatibility_test": true,
+    "auto_promote": false,
+    "auto_create_accounts": false,
+    "auto_change_billing": false,
+    "auto_send_external_messages": false,
+    "auto_publish": false,
+    "auto_make_phone_calls": false
+  },
+  "selection_signals": [
+    "task_quality",
+    "latency",
+    "cost",
+    "availability",
+    "tool_compatibility",
+    "security",
+    "model_lifecycle"
+  ]
+}
