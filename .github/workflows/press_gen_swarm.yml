@@ -1,0 +1,98 @@
+name: DEIOM PRESS GEN-5 Swarm
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+# Five agents run in parallel inside one bounded workflow. A new cycle
+# cancels an older unfinished cycle so 5-minute scheduling cannot pile up.
+concurrency:
+  group: press-gen-swarm
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  agents:
+    name: ${{ matrix.agent }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        agent:
+          - ERP-QA
+          - Operations
+          - Revenue
+          - AI-Upgrade
+          - Security
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run bounded PRESS coordinator
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python press_system/press_ai_swarm.py
+
+      - name: Upload agent report
+        uses: actions/upload-artifact@v4
+        with:
+          name: press-gen-${{ matrix.agent }}
+          path: content/press_agents/latest.json
+          retention-days: 7
+
+  aggregate:
+    name: Aggregate five agents
+    needs: agents
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download reports
+        uses: actions/download-artifact@v4
+        with:
+          pattern: press-gen-*
+          path: press_agent_reports
+          merge-multiple: false
+
+      - name: Build aggregate report
+        shell: python
+        run: |
+          import json, pathlib, datetime
+          root = pathlib.Path('press_agent_reports')
+          reports = []
+          for p in sorted(root.glob('*/latest.json')):
+              try:
+                  reports.append(json.loads(p.read_text(encoding='utf-8')))
+              except Exception as exc:
+                  reports.append({'error': str(exc), 'source': str(p)})
+          out = pathlib.Path('content/press_agents')
+          out.mkdir(parents=True, exist_ok=True)
+          payload = {
+              'system': 'DEIOM PRESS GEN-5 Swarm',
+              'generated_at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              'reports': reports,
+              'authorization_state': 'pre-account-connection',
+              'next_account_gate': 'Enable only approved platform/API credentials through GitHub Secrets.'
+          }
+          (out / 'swarm_latest.json').write_text(json.dumps(payload, indent=2), encoding='utf-8')
+
+      - name: Commit aggregate state
+        run: |
+          git config user.name 'DEIOM PRESS GEN Bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/press_agents/swarm_latest.json
+          git diff --cached --quiet || git commit -m 'chore: refresh PRESS GEN-5 swarm state'
+          git push
