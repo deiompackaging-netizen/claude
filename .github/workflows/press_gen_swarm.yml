@@ -38,9 +38,10 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run bounded PRESS coordinator
+      - name: Run bounded PRESS coordinator for this agent
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PRESS_AGENT: ${{ matrix.agent }}
         run: python press_system/press_ai_swarm.py
 
       - name: Upload agent report
