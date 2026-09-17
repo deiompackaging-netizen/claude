@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-16",
+  "last_scanned": "2026-09-17",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -554,6 +554,21 @@
       "source_url": "https://github.com/Ritavidhata/awesome-ai-tools/pull/4",
       "source": "GitHub PR search",
       "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Production readiness: security, reliability, billing, growth, ML 2026, cross-platform agent",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/viniciusguardaa-cpu/meliprint-web/pull/1",
+      "source": "GitHub PR search",
+      "score": 50,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
