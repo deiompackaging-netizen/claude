@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-17",
+  "last_scanned": "2026-09-18",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -569,6 +569,36 @@
       "source_url": "https://github.com/viniciusguardaa-cpu/meliprint-web/pull/1",
       "source": "GitHub PR search",
       "score": 50,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add NextReset developer tool",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/datecalx/awesome-browser-tools/pull/11",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(platform): add Casey customer-support core expert (machine-built experiment)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT/pull/14636",
+      "source": "GitHub PR search",
+      "score": 0,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
