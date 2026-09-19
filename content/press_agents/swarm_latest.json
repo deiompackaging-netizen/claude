@@ -1,15 +1,15 @@
 {
   "system": "DEIOM PRESS GEN-5 Swarm",
-  "generated_at": "2026-09-19T18:46:25.300620+00:00",
+  "generated_at": "2026-09-19T21:06:48.819920+00:00",
   "reports": [
     {
       "system": "DEIOM PRESS GEN-5 Swarm",
-      "cycle": "20260919T184541Z",
+      "cycle": "20260919T210640Z",
       "requested_agent": "ai_upgrade",
       "agents": {
         "ai_upgrade": {
           "agent": "AI Upgrade Agent",
-          "timestamp": "2026-09-19T18:45:41.047475+00:00",
+          "timestamp": "2026-09-19T21:06:40.295119+00:00",
           "provider_registry_count": 4,
           "enabled_credentials_detected": [],
           "actions": [
@@ -38,12 +38,12 @@
     },
     {
       "system": "DEIOM PRESS GEN-5 Swarm",
-      "cycle": "20260919T184616Z",
+      "cycle": "20260919T210638Z",
       "requested_agent": "erp_qa",
       "agents": {
         "erp_qa": {
           "agent": "ERP QA Agent",
-          "timestamp": "2026-09-19T18:46:16.288600+00:00",
+          "timestamp": "2026-09-19T21:06:38.267868+00:00",
           "checks": {
             "html_present": true,
             "script_tags": 0
@@ -73,12 +73,12 @@
     },
     {
       "system": "DEIOM PRESS GEN-5 Swarm",
-      "cycle": "20260919T184542Z",
+      "cycle": "20260919T210639Z",
       "requested_agent": "operations",
       "agents": {
         "operations": {
           "agent": "Operations Agent",
-          "timestamp": "2026-09-19T18:45:42.104985+00:00",
+          "timestamp": "2026-09-19T21:06:39.678872+00:00",
           "detected_capabilities": [
             "quotations",
             "production",
@@ -112,12 +112,12 @@
     },
     {
       "system": "DEIOM PRESS GEN-5 Swarm",
-      "cycle": "20260919T184540Z",
+      "cycle": "20260919T210640Z",
       "requested_agent": "revenue",
       "agents": {
         "revenue": {
           "agent": "Revenue Agent",
-          "timestamp": "2026-09-19T18:45:40.655338+00:00",
+          "timestamp": "2026-09-19T21:06:40.114444+00:00",
           "commercial_assets": [
             "Printing ERP implementation/setup service",
             "Solar/printing quotation workflow customization",
@@ -150,12 +150,12 @@
     },
     {
       "system": "DEIOM PRESS GEN-5 Swarm",
-      "cycle": "20260919T184541Z",
+      "cycle": "20260919T210638Z",
       "requested_agent": "security",
       "agents": {
         "security": {
           "agent": "Security & Reliability Agent",
-          "timestamp": "2026-09-19T18:45:41.103646+00:00",
+          "timestamp": "2026-09-19T21:06:38.581523+00:00",
           "security_checks": [
             "No credentials, OTPs, passwords, or payment details in source control.",
             "No covert device control or unauthorized account actions.",
