@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-18",
+  "last_scanned": "2026-09-19",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -597,6 +597,21 @@
       "cookie_days": null,
       "application_url": "",
       "source_url": "https://github.com/Significant-Gravitas/AutoGPT/pull/14636",
+      "source": "GitHub PR search",
+      "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Sourcey to Deal Aggregators",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/DobroslavRadosavljevic/awesome-startup-deals/pull/4",
       "source": "GitHub PR search",
       "score": 0,
       "last_verified": null,
