@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-19",
+  "last_scanned": "2026-09-20",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -614,6 +614,66 @@
       "source_url": "https://github.com/DobroslavRadosavljevic/awesome-startup-deals/pull/4",
       "source": "GitHub PR search",
       "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add APIClaw to Discoveries developer tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/steven2358/awesome-generative-ai/pull/1404",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Agent QA to developer tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/jayvicsanantonio/web-development-hub/pull/135",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add APIClaw to AI tools list in README",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/mahseema/awesome-ai-tools/pull/2198",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add UFCalendar Fight API (Sports)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/jaw9c/awesome-remote-mcp-servers/pull/825",
+      "source": "GitHub PR search",
+      "score": 55,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
