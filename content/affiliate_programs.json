@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-22",
+  "last_scanned": "2026-09-23",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -719,6 +719,21 @@
       "source_url": "https://github.com/Aurelius77/AI-TOOLS-DIRECTORY/pull/14",
       "source": "GitHub PR search",
       "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Fit search and scrape descriptions under Claude Code's 2,048-character cap, routing copy first",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/firecrawl/firecrawl-mcp-server/pull/436",
+      "source": "GitHub PR search",
+      "score": 0,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
