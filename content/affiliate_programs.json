@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-23",
+  "last_scanned": "2026-09-24",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -734,6 +734,51 @@
       "source_url": "https://github.com/firecrawl/firecrawl-mcp-server/pull/436",
       "source": "GitHub PR search",
       "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add NextReset to developer resources",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/mrdulin/resources/pull/19",
+      "source": "GitHub PR search",
+      "score": 40,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "fix(mcp): clarify Alexandria execution and feedback metadata",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/firecrawl/firecrawl-mcp-server/pull/438",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add KeyDrift to Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/hanishrao/collective-ai-tools/pull/368",
+      "source": "GitHub PR search",
+      "score": 45,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
