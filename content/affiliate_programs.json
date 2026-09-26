@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-25",
+  "last_scanned": "2026-09-26",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -854,6 +854,36 @@
       "source_url": "https://github.com/tin-computer/tin/pull/118",
       "source": "GitHub PR search",
       "score": 30,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(backend): publish the skills catalog on deploy and update installed copies in place",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT/pull/14945",
+      "source": "GitHub PR search",
+      "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(backend): point the built-in experts at the new catalog skills",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Significant-Gravitas/AutoGPT/pull/14925",
+      "source": "GitHub PR search",
+      "score": 25,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
