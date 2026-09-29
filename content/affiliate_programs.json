@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-09-28",
+  "last_scanned": "2026-09-29",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -929,6 +929,36 @@
       "source_url": "https://github.com/DelineaXPM/dsv-cli/pull/190",
       "source": "GitHub PR search",
       "score": 5,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Restructure the docs around top tabs and finish the 2024 structure plan",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/softr-io/softr-public-documentation/pull/128",
+      "source": "GitHub PR search",
+      "score": 60,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add URL & Meta Extractor (Apify pay-per-event actor) to Developer Tools & AI",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/parsebird/awesome-web-scrapers/pull/3",
+      "source": "GitHub PR search",
+      "score": 45,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
