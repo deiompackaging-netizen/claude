@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-02",
+  "last_scanned": "2026-10-03",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1034,6 +1034,36 @@
       "source_url": "https://github.com/eferrares/awesome-startup-resources/pull/75",
       "source": "GitHub PR search",
       "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add QuotaCrew to Developer Productivity Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/ai-for-developers/awesome-ai-coding-tools/pull/828",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(integrations): add support for awin",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/NangoHQ/nango/pull/7130",
+      "source": "GitHub PR search",
+      "score": 55,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
