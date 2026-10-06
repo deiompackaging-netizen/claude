@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-05",
+  "last_scanned": "2026-10-06",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1124,6 +1124,36 @@
       "source_url": "https://github.com/mitdralla/awesome-ai-seo-geo-tools/pull/1",
       "source": "GitHub PR search",
       "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat: add a search tool",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/firecrawl/firecrawl-mcp-server/pull/485",
+      "source": "GitHub PR search",
+      "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Clout to AI Image Generation Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/ToolkitlyAI/awesome-ai-tools/pull/171",
+      "source": "GitHub PR search",
+      "score": 35,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
