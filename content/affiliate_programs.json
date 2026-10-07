@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-06",
+  "last_scanned": "2026-10-07",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1154,6 +1154,36 @@
       "source_url": "https://github.com/ToolkitlyAI/awesome-ai-tools/pull/171",
       "source": "GitHub PR search",
       "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(offers): add approved student and startup programs",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/luongnv89/freetokens/pull/551",
+      "source": "GitHub PR search",
+      "score": 75,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Power CM Partners to independent developer resources",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/yaolifeng0629/Awesome-independent-tools/pull/153",
+      "source": "GitHub PR search",
+      "score": 0,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
