@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-13",
+  "last_scanned": "2026-10-14",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1319,6 +1319,51 @@
       "source_url": "https://github.com/acadieman1-spec/FinderOuter/pull/2",
       "source": "GitHub PR search",
       "score": 55,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "docs: update affiliate text assets with hosted links",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Cap-go/capgo.app/pull/3691",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat: hide unconfirmed cookie, payout and approval on unverified programs",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Affitor/open-affiliate/pull/200",
+      "source": "GitHub PR search",
+      "score": 85,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "fix: network and category commission figures from structured fields, rates and flat payouts apart",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Affitor/open-affiliate/pull/204",
+      "source": "GitHub PR search",
+      "score": 95,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
