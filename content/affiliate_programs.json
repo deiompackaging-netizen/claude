@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-16",
+  "last_scanned": "2026-10-17",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1379,6 +1379,51 @@
       "source_url": "https://github.com/Affitor/open-affiliate/pull/232",
       "source": "GitHub PR search",
       "score": 65,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "docs: add Markdown Pro to Programming Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/mansucache/awesome-markdown/pull/27",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add ShellWire to Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/hanishrao/collective-ai-tools/pull/437",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add dubly.me to AI Copilots and Productivity Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/themeselection/best-chrome-extensions/pull/97",
+      "source": "GitHub PR search",
+      "score": 35,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
