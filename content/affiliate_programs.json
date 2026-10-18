@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-17",
+  "last_scanned": "2026-10-18",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1424,6 +1424,66 @@
       "source_url": "https://github.com/themeselection/best-chrome-extensions/pull/97",
       "source": "GitHub PR search",
       "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat: add 21 SaaS and AI programs (daily 2026-10-17 a)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Affitor/open-affiliate/pull/238",
+      "source": "GitHub PR search",
+      "score": 70,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Jev Agent to developer-tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/wundercorp/awesome-mcp/pull/133",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add pumpdata to Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/solana-foundation/awesome-solana-ai/pull/263",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Jev Agent to Developer tools (Discoveries)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/steven2358/awesome-generative-ai/pull/1704",
+      "source": "GitHub PR search",
+      "score": 45,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
