@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-21",
+  "last_scanned": "2026-10-22",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1649,6 +1649,51 @@
       "source_url": "https://github.com/StormSale/StormSale/pull/252",
       "source": "GitHub PR search",
       "score": 80,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Fix bal scan findings so Security Scan passes",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/ballerina-platform/module-ballerina-auth/pull/1628",
+      "source": "GitHub PR search",
+      "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(affiliate): add Telegram notification bot integration for commission alerts",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/StormSale/StormSale/pull/345",
+      "source": "GitHub PR search",
+      "score": 80,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "test: add lifecycle affiliate claim E2E coverage",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/StormSale/StormSale/pull/332",
+      "source": "GitHub PR search",
+      "score": 55,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
