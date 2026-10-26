@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-25",
+  "last_scanned": "2026-10-26",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1754,6 +1754,51 @@
       "source_url": "https://github.com/Affitor/open-affiliate/pull/415",
       "source": "GitHub PR search",
       "score": 95,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add agent-qa to AI developer tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/martinrodl/devstack-directory/pull/3",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add 巨浪 AI / Jvlang AI to AI resources",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/yaolifeng0629/Awesome-independent-tools/pull/182",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "docs(adr): propose identity provider requirements and candidates",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/jackvincentnz/lab/pull/967",
+      "source": "GitHub PR search",
+      "score": 0,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
