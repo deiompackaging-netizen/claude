@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-26",
+  "last_scanned": "2026-10-27",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1799,6 +1799,51 @@
       "source_url": "https://github.com/jackvincentnz/lab/pull/967",
       "source": "GitHub PR search",
       "score": 0,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(cow-fi): manage careers and affiliate copy in CMS",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/cowprotocol/cowswap/pull/8471",
+      "source": "GitHub PR search",
+      "score": 60,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add CorpusIQ — AI business intelligence with MCP",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/punkpeye/awesome-mcp-servers/pull/9483",
+      "source": "GitHub PR search",
+      "score": 60,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Orbi to Coding & Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/nowork-studio/awesome-ai-startups/pull/121",
+      "source": "GitHub PR search",
+      "score": 45,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
