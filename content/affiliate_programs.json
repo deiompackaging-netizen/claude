@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-27",
+  "last_scanned": "2026-10-28",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1844,6 +1844,36 @@
       "source_url": "https://github.com/nowork-studio/awesome-ai-startups/pull/121",
       "source": "GitHub PR search",
       "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "fix(attribution-lib): prefer user errors over NVRx detected failure",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/dsx-ai-factory/attribution/pull/295",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "docs: document AIO_RELOAD_ENV_ON_PRE_HOOKS in the app hooks guide",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/AdobeDocs/app-builder/pull/585",
+      "source": "GitHub PR search",
+      "score": 0,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
