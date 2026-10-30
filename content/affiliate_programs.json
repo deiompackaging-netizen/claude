@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-10-29",
+  "last_scanned": "2026-10-30",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -1919,6 +1919,36 @@
       "source_url": "https://github.com/pleasedodisturb/awesome-llm-token-optimization/pull/71",
       "source": "GitHub PR search",
       "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add HIVE.md generator to Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/pnnnhan99/awesome-free-dev-tools/pull/31",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Stage5 Phase2 — 25-node integration candidate (offline only)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/huhongchuan0422-creator/Repository-name-xuanjun-ai-control/pull/122",
+      "source": "GitHub PR search",
+      "score": 5,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
