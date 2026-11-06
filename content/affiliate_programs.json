@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-11-05",
+  "last_scanned": "2026-11-06",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -2127,6 +2127,36 @@
       "cookie_days": null,
       "application_url": "",
       "source_url": "https://github.com/morganrcu/awesome-eu-ai-act/pull/52",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Clickwise (marketing MCP server)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Albertchamberlain/Awesome-MCP/pull/138",
+      "source": "GitHub PR search",
+      "score": 35,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add firenook-dev/firenook to Developer Tools 🤖🤖🤖",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/punkpeye/awesome-mcp-servers/pull/18683",
       "source": "GitHub PR search",
       "score": 45,
       "last_verified": null,
