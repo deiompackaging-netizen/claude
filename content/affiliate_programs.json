@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-11-08",
+  "last_scanned": "2026-11-09",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -2219,6 +2219,66 @@
       "source_url": "https://github.com/Pimjo/black-friday-deals/pull/94",
       "source": "GitHub PR search",
       "score": 60,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add agent-qa to AI developer tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/caohuihu/AIall/pull/1",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(plugin-catalog): add linkjolt plugin",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/NousResearch/hermes-agent/pull/151389",
+      "source": "GitHub PR search",
+      "score": 60,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add: agent-qa to Developer Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/FirdowsRahaman/the-ultimate-collection/pull/1",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add agent-qa to developer tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Clingers/AIHome/pull/1",
+      "source": "GitHub PR search",
+      "score": 45,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
