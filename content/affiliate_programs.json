@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-11-11",
+  "last_scanned": "2026-11-13",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -2339,6 +2339,36 @@
       "source_url": "https://github.com/useragent-1/AI-/pull/2",
       "source": "GitHub PR search",
       "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Perch (Developer Tools): 40% off, $29 → $17.40",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/s1ntoneli/Awesome-Black-Friday-Cyber-Monday-for-Mac-Apps/pull/141",
+      "source": "GitHub PR search",
+      "score": 70,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "feat(workflow): support native QM configuration and SDK-backed fake Rabi",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/oqtopus-team/qdash/pull/1820",
+      "source": "GitHub PR search",
+      "score": 5,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
