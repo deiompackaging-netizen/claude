@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_scanned": "2026-11-21",
+  "last_scanned": "2026-11-22",
   "programs": [
     {
       "name": "Add appqr.io affiliate program",
@@ -2459,6 +2459,51 @@
       "source_url": "https://github.com/danmindru/rare-big-deal/pull/1047",
       "source": "GitHub PR search",
       "score": 70,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Termalin (Developer Tools)",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/s1ntoneli/Awesome-Black-Friday-Cyber-Monday-for-Mac-Apps/pull/258",
+      "source": "GitHub PR search",
+      "score": 45,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "Add Storepanes to Design Tools",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/digital-marketing-engineer/software-engineer-affiliate-program-hub/pull/28",
+      "source": "GitHub PR search",
+      "score": 55,
+      "last_verified": null,
+      "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
+    },
+    {
+      "name": "docs: track a desktop app and track a mobile app",
+      "status": "discovery_only",
+      "official_url": "",
+      "affiliate_url": "",
+      "commission": null,
+      "recurring": null,
+      "cookie_days": null,
+      "application_url": "",
+      "source_url": "https://github.com/Affitor/affitor-docs/pull/298",
+      "source": "GitHub PR search",
+      "score": 80,
       "last_verified": null,
       "notes": "Discovery signal only. Verify the official affiliate/referral program before publication."
     }
